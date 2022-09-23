@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: solid 1px;
+    height: 400px;
+    width: 600px;
+    margin: 50px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.izquierda{
+    height: 362px;
+    width: 300px;
+    position: absolute;
+}
+
+.derecha{
+    height: 362px;
+    width: 300px;
+    float: right;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.datos{
+    margin-top: 80px;
+    margin-left: 18%;
+}
+
+.botones{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+.calcular{
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reiniciar{
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.texto3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.resultado{
+    border: solid 1px;
+    height: 100px;
+    width: 100px;
+    margin-left: 34%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
