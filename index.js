@@ -15,7 +15,7 @@ let operacion = function () {
     }else if(calcular>24.9 && calcular<=29.9){
         document.getElementById('resultado').style.backgroundColor="rgb(255, 128, 0)"
     }else if(calcular>29.9 && calcular<=40){
-        document.getElementById('resultado').style.backgroundColor="rgb(255,0,0)"
+        document.getElementById('resultado').style.backgroundColor="rgb(255,0,0)" 
     }
 }
 
